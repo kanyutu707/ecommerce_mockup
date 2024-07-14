@@ -16,7 +16,7 @@
 }
 @media screen and (max-width:1001px){
     .signInContainer form{
-        max-width: 98%;
+        max-width: 550px;
     }
 }
 .signInContainer form header{
