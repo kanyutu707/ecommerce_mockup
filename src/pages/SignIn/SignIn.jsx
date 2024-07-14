@@ -10,7 +10,7 @@ const SignIn = () => {
             <header>SIGN IN FORM</header>
             <input type="text" placeholder='username' />
             <input type="password" placeholder='password'/>
-            <Link to='/Home'>SIGN UP</Link>
+            <Link to='/'>SIGN UP</Link>
         </form>
     </div>
   )

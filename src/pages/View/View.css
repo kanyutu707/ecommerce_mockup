@@ -17,6 +17,11 @@
     
    
 }
+@media screen and (max-width:1001px){
+    .view{
+        width: 99%;
+    }
+}
 .view img{
     max-width: 92%;
     max-height: 92%;
