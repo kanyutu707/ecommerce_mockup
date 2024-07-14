@@ -14,11 +14,7 @@
     padding: 70px;
     min-width: 550px;
 }
-@media screen and (max-width:1001px){
-    .signInContainer form{
-        max-width: 550px;
-    }
-}
+
 .signInContainer form header{
     text-decoration: underline;
     font-weight: 200;
@@ -47,4 +43,9 @@
     text-decoration: none;
     color: black;
     
+}
+@media screen and (max-width:1001px){
+    .signInContainer form{
+        max-width: 550px;
+    }
 }
