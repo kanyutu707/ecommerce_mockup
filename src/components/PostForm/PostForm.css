@@ -1,0 +1,42 @@
+.postFormContainer{
+     
+     margin-top: 170px;
+     padding: 10px;
+}
+.postFormContainer form{
+    background-color: whitesmoke;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    
+    
+
+}
+.postFormContainer form header{
+    text-decoration: underline;
+    margin: auto;
+}
+.postFormContainer form input, .postFormContainer form textarea{
+    background-color: white;
+    height: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.postFormContainer form button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.postFormContainer form textarea{
+    min-height: 100px;
+    max-width: 100%;
+}

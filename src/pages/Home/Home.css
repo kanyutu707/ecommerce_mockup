@@ -1,0 +1,23 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.newHouse{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.newHouse .imageCarosel{
+    background-color: whitesmoke;
+    margin-top: 170px;
+    margin-right: 20px;
+    
+}
+.imageCarosel img{
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+    max-width: 95%;
+    max-height: 95%;
+}

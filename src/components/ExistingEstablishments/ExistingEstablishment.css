@@ -1,0 +1,57 @@
+.existinghouseContainer{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    
+    margin-top: 10px;
+
+}
+.house{
+    width: 285px;
+    border-radius: 5px;
+    height: 320px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid springgreen;
+    cursor: pointer;
+}
+.house:hover{
+    box-shadow: 1px 2px 1px 2px whitesmoke;
+    border: 1px solid lightskyblue;
+    transform: scale(1.005);
+}
+.house img{
+    height: 175px;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: url("C:\Users\kanyu\Pictures\pexels-expect-best-79873-323780.jpg");
+}
+.house h3{
+    margin-bottom: 8px;
+    font-weight: 200;
+    margin-top: 2px;
+
+}
+.house h4{
+    margin-bottom: 7px;
+    font-weight: 100;
+    
+}
+.house .details button{
+    background-color: springgreen;
+    border: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+svg{
+    height: 25px;
+
+}
